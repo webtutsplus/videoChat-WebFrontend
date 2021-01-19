@@ -10,14 +10,10 @@ var remoteStream;
 var turnReady;
 
 //Initialize turn/stun server here
-var pcConfig = {
-  'iceServers': [{
-    'urls': 'stun:stun.l.google.com:19302'
-  }]
-};
+var pcConfig = turnConfig;
 
 var localStreamConstraints = {
-    audio: false,
+    audio: true,
     video: true
   };
 
