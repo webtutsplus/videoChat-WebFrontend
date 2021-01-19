@@ -118,7 +118,7 @@ function gotStream(stream) {
 }
 
 
-console.log('Getting user media with constraints', constraints);
+console.log('Getting user media with constraints', localStreamConstraints);
 
 //If initiator, create the peer connection
 function maybeStart() {
