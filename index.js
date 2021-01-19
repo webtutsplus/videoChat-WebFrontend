@@ -9,7 +9,8 @@ var http = require('http');
 var socketIO = require('socket.io');
 
 
-app.use(express.static('public'));
+app.use(express.static('public'))
+
 app.get("/", function(req, res){
 	res.render("index.ejs");
 });
