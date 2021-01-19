@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/webtutsplus/videoChat-WebFrontend/issues"
   },
-  "homepage": "https://github.com/webtutsplus/videoChat-WebFrontend#readme"
+  "homepage": "https://github.com/webtutsplus/videoChat-WebFrontend#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
 }
