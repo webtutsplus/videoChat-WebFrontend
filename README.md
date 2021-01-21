@@ -7,6 +7,7 @@
 * open `localhost:8000`
 
 ## Obtaining TURN/STUN credentials using Xiysys
+* Do not use the credentials provided
 * Go to https://xirsys.com/
 * Sign Up 
 * Log in to your account
