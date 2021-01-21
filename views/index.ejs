@@ -3,20 +3,31 @@
 
 <head>
 
-  <title>IIIT</title>
+  <title>WebTutsPlus WebCon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&family=Josefin+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
 
   <!-- <link rel="stylesheet" href="/css/main.css" /> -->
 
 </head>
 
-<body>
+<body class="h-100">
+  <div class="h-100" id="video_display">
 
-  <h1>IIIT</h1>
+    <div id ="video_container" class="align-items-center" style="margin-top: 10%;">
+      <div class="local_div" id="div1" style="">
+				<video id="localVideo" class="" autoplay muted playsinline></video>
+			</div>
+			<div class="remote_div" id="div2">
+				<video id="remoteVideo" class="" autoplay playsinline></video>
+			</div>
+    </div>
 
-  <div id="videos">
-    <video id="localVideo" autoplay muted></video>
-    <video id="remoteVideo" autoplay></video>
   </div>
+  
+
+  
 
   <!-- Import SocketIO for signalling -->
   <script src="/socket.io/socket.io.js"></script>
